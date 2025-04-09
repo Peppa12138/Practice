@@ -1,7 +1,8 @@
 #include <pthread.h>
+#include <stdio.h>
 void *worker(void *arg)
 {
-    printf("Hello Word!\n");
+    printf("Hello World!\n");
     return NULL;
 }
 int main(int argc, char *argv[])
